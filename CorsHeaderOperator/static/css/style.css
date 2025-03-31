@@ -1,0 +1,71 @@
+/* Custom styles to enhance the bootstrap theme */
+.method-btn {
+    width: 100px;
+    margin-right: 5px;
+}
+
+.endpoint-input {
+    flex-grow: 1;
+}
+
+.cors-container {
+    max-width: 100%;
+    overflow-x: auto;
+}
+
+.response-container {
+    max-height: 500px;
+    overflow-y: auto;
+    border-radius: 5px;
+}
+
+.header-card {
+    margin-bottom: 15px;
+}
+
+.header-value {
+    word-break: break-all;
+}
+
+.code-block {
+    background-color: #2d2d2d;
+    color: #f8f8f2;
+    border-radius: 5px;
+    padding: 15px;
+    font-family: monospace;
+    white-space: pre-wrap;
+    max-height: 300px;
+    overflow-y: auto;
+}
+
+.tunnel-section {
+    margin-top: 30px;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.endpoint-card {
+    margin-bottom: 15px;
+}
+
+.loading-spinner {
+    display: none;
+    margin-left: 10px;
+}
+
+.request-body-container {
+    margin-top: 10px;
+}
+
+.tab-content {
+    padding: 15px;
+    border-left: 1px solid #444;
+    border-right: 1px solid #444;
+    border-bottom: 1px solid #444;
+    border-radius: 0 0 5px 5px;
+}
+
+/* Make sure buttons have consistent height */
+.btn-sm {
+    height: 38px;
+}
